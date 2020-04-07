@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+	<parameter name="url" value="http://www.yahoo.com"></parameter>
+	<parameter name="url" value="http://www.yahoo.com"></parameter>
+	<parameter name="url" value="http://www.yahoo.com"></parameter>
+	<parameter name="city" value="http://www.yahoo.com"></parameter>
+	<parameter name="address1" value="http://www.yahoo.com"></parameter>
+	<parameter name="address1" value="http://www.yahoo.com"></parameter>
+    <classes>
+      <class name="com.test.OptParamDemo2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
